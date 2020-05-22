@@ -12,7 +12,7 @@ check if all connections are proper and are connected to the power supply.
 Check if this is right, as everything depends on this, if the code seems correct you can move on ahead.
 
 ### Servo 
-  * Try this code 
+   Try this code 
   ```
   #include<servo.h>
   servo s
@@ -28,10 +28,10 @@ Check if this is right, as everything depends on this, if the code seems correct
   delay(100);
   }
   ```
-  * If the servo oscillates ot should be fine, else you have to get a new servo.
+   If the servo oscillates ot should be fine, else you have to get a new servo.
   
   ### Phototransistor
-  * Feed this code
+  Feed this code
   ```
   void setup()
   {
@@ -46,10 +46,10 @@ Check if this is right, as everything depends on this, if the code seems correct
   serial.print("\n");
   }
   ```
-  * If there is a fluxuation of values in the serial monitor while the game is running, then the phototransistor is working, else you have to buy a new one.
+  If there is a fluxuation of values in the serial monitor while the game is running, then the phototransistor is working, else you have to buy a new one.
   
 ### Arduino
-  *If servo and phototransistor work but you cannot upload code to Arduino and if the IC is hot , you would have probably burnt it , but shorting an Arduino isn't easy , they have inbuilt mechanisms to prevent it so see if there are other issues as mentioned above before assuming that you have burnt your Arduino.
+  If servo and phototransistor work but you cannot upload code to Arduino and if the IC is hot , you would have probably burnt it , but shorting an Arduino isn't easy , they have inbuilt mechanisms to prevent it so see if there are other issues as mentioned above before assuming that you have burnt your Arduino.
 
 ## If the space is being pressed at the wrong time
 You have to adjust the phototransistor on screen to make it work properly by trial and error, also you may change the delay time as suited.
