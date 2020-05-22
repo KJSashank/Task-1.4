@@ -56,3 +56,5 @@ You have to adjust the phototransistor on screen to make it work properly by tri
 
 ## Components
 Just google the components or you can buy them in any electronic shop. They are easily available in many places. 
+
+[Original Project - Automatic Dino Game](https://github.com/KJSashank/Task-1.2/tree/master/Automatic%20Dino%20Game)
